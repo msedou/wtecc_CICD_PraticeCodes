@@ -11,4 +11,4 @@ spec:
         name: echo
       params:
         - name: message
-          value: "$(params.)"
+          value: ["$(params.message)"]
