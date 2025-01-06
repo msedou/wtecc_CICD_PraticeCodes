@@ -13,7 +13,7 @@ spec:
       command: [/bin/echo]
       args: ["$(params.message)"]
 ---
-apiVersion:tekton.dev/v1beta1
+apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
     name: checkout
