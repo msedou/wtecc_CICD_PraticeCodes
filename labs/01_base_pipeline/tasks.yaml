@@ -11,4 +11,4 @@ spec:
     - name: echo-message
       image: alpine:3
       command: [/bin/echo]
-      args: message
+      args: ["$(params.message)"]
